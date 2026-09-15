@@ -1,0 +1,234 @@
+```css
+/* Basic settings */
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+/* Navigation */
+/* ================= NAVBAR ================= */
+
+header {
+    background: #101a35;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 18px 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 22px;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.nav-links a:hover {
+    color: #63b7ff;
+}
+
+
+/* Main sections */
+section {
+    padding: 40px 8%;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #123c69;
+}
+
+/* Hero */
+.hero {
+    background-color: #dcecff;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Cards */
+.card,
+.career-card,
+.project-level,
+.interview-box,
+.quiz-box {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #bbb;
+}
+
+/* Buttons */
+button {
+    background-color: #123c69;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d5d99;
+}
+
+/* Career cards */
+.career-card {
+    display: inline-block;
+    width: 220px;
+    vertical-align: top;
+}
+
+.career-card:hover {
+    background-color: #eaf3ff;
+}
+
+/* Project list */
+.project-level {
+    text-align: left;
+}
+
+/* Quiz */
+.quiz-box {
+    text-align: center;
+}
+
+#result {
+    font-weight: bold;
+    margin: 15px;
+}
+
+/* Interview */
+.interview-box {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #123c69;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .career-card {
+        width: auto;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+}
+/* ================= ROADMAP ================= */
+
+.roadmap-section {
+    background: #eef5fc;
+}
+
+
+.roadmap {
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 15px;
+}
+
+
+.road-step {
+    background: white;
+
+    padding: 25px;
+
+    width: 210px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.07);
+}
+
+
+.number {
+    width: 40px;
+    height: 40px;
+
+    margin: auto auto 15px;
+
+    background: #173d70;
+
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: bold;
+}
+
+
+.road-step p {
+    margin-top: 8px;
+
+    color: #687386;
+}
+
+
+.arrow {
+    font-size: 30px;
+
+    color: #2176c7;
+}
+```

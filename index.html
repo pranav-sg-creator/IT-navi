@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IT Student Navigator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+               🚀 IT Student Navigator
+            </div>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#careers">Careers</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#projects">Projects</a>
+                <a href="#quiz">Quiz</a>
+                <a href="#interview">Interview</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                WELCOME IT STUDENTS 👋
+            </p>
+
+            <h1>
+                Build Your
+                <span>IT Career</span>
+                With Confidence
+            </h1>
+
+            <p>
+                Learn skills, explore careers, find project ideas
+                and prepare yourself for the IT industry.
+            </p>
+
+            <div class="hero-buttons">
+
+                <!-- Explore button -->
+           <h2>   <b>  <a href="#careers" class="main-btn">
+                    Explore Careers →
+                </a>
+
+                <a href="#quiz" class="second-btn">
+                    Take Quiz
+                </a></b></h2>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="rocket">
+                🚀
+            </div>
+
+            <h2>
+                Your IT Journey
+            </h2>
+
+            <div class="journey">
+
+                <div>📚 Learn</div>
+
+                <div>🧠 Practice</div>
+
+                <div>💻 Build</div>
+
+                <div>🎯 Grow</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CAREERS ================= -->
+
+    <section id="careers" class="section">
+
+        <div class="section-heading">
+
+            <p>
+                EXPLORE YOUR FUTURE
+            </p>
+
+            <h2>
+                Choose Your IT Career
+            </h2>
+
+            <span>
+                Click on a career to see its skills and project ideas.
+            </span>
+
+        </div>
+
+
+        <div class="career-container">
+
+
+            <div class="career-card" data-career="web">
+
+                <div class="icon">
+                    💻
+                </div>
+
+                <h3>
+                    Web Developer
+                </h3>
+
+                <p>
+                    Create websites and web applications.
+                </p>
+
+             <a href="webdeveloper.html" class="button-link">Explore →</a>
+            </div>
+
+
+            <div class="career-card" data-career="cyber">
+
+                <div class="icon">
+                    🔐
+                </div>
+
+                <h3>
+                    Cybersecurity
+                </h3>
+
+                <p>
+                    Protect computers, networks and data.
+                </p>
+
+                <a href="cybersecurity.html" class="button-link">
+                    Explore →
+               </a>
+
+            </div>
+
+
+            <div class="career-card" data-career="data">
+
+                <div class="icon">
+                    📊
+                </div>
+
+                <h3>
+                    Data Analyst
+                </h3>
+
+                <p>
+                    Study data and find useful information.
+                </p>
+<a href="dataanalyst.html" class="button-link">
+
+                    Explore →
+                </a>
+
+            </div>
+
+
+            <div class="career-card" data-career="cloud">
+
+                <div class="icon">
+                    ☁️
+                </div>
+
+                <h3>
+                    Cloud Computing
+                </h3>
+
+                <p>
+                    Work with online servers and cloud services.
+                </p>
+
+<a href="cloudcomputing.html" class="button-link">
+                
+                    Explore →
+                </a>
+
+            </div>
+
+
+            <div class="career-card" data-career="app">
+
+                <div class="icon">
+                    📱
+                </div>
+
+                <h3>
+                    App Developer
+                </h3>
+
+                <p>
+                    Create applications for mobile devices.
+                </p>
+<a href="app.html" class="button-link">
+                    Explore →
+               </a>
+            </div>
+
+
+            <div class="career-card" data-career="database">
+
+                <div class="icon">
+                    🗄️
+                </div>
+
+                <h3>
+                    Database
+                </h3>
+
+                <p>
+                    Store and manage important data.
+                </p>
+
+                <a href="database.html" class="button-link">
+                    Explore →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+	
+
+
+
+
+
+
+
+    <!-- ================= CAREER POPUP ================= -->
+
+  <div id="careerModal" class="modal">
+    <div class="modal-content">
+        <span id="closeCareer">&times;</span>
+        <div id="careerDetails"></div>
+    </div>
+</div>
+
+    <!-- ================= ROADMAP ================= -->
+
+    <section id="roadmap" class="section roadmap-section">
+
+        <div class="section-heading">
+
+            <p>
+                LEARNING PATH
+            </p>
+
+            <h2>
+                Web Development Roadmap
+            </h2>
+
+            <span>
+                Follow these simple steps to start your journey.
+            </span>
+
+        </div>
+
+
+        <div class="roadmap">
+
+            <div class="road-step">
+
+                <div class="number">
+                    1
+                </div>
+
+                <h3>
+                    HTML
+                </h3>
+
+                <p>
+                    Learn webpage structure.
+                </p>
+
+            </div>
+
+
+            <div class="arrow">
+                →
+            </div>
+
+
+            <div class="road-step">
+
+                <div class="number">
+                    2
+                </div>
+
+                <h3>
+                    CSS
+                </h3>
+
+                <p>
+                    Learn webpage design.
+                </p>
+
+            </div>
+
+
+            <div class="arrow">
+                →
+            </div>
+
+
+            <div class="road-step">
+
+                <div class="number">
+                    3
+                </div>
+
+                <h3>
+                    JavaScript
+                </h3>
+
+                <p>
+                    Add interaction.
+                </p>
+
+            </div>
+
+
+            <div class="arrow">
+                →
+            </div>
+
+
+            <div class="road-step">
+
+                <div class="number">
+                    4
+                </div>
+
+                <h3>
+                    Projects
+                </h3>
+
+                <p>
+                    Build real projects.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+ 
+<!-- PROJECT IDEAS -->
+<center>
+<section id="projects">
+
+    <h2>Project Ideas</h2>
+
+    <!-- Beginner -->
+    <div class="project-level">
+        <h3>Beginner Projects</h3>
+
+        <p>• Personal Portfolio Website</p>
+        <p>• Student Registration Form</p>
+        <p>• Digital Calculator</p>
+        <p>• Digital Clock</p>
+        <p>• College Timetable Website</p>
+    </div>
+
+
+    <!-- Intermediate -->
+    <div class="project-level">
+        <h3>Intermediate Projects</h3>
+
+        <p>• Online Course Website</p>
+        <p>• Student Result Management System</p>
+        <p>• Library Management System</p>
+        <p>• Online Shopping Website</p>
+        <p>• Quiz Application</p>
+    </div>
+
+
+    <!-- Advanced -->
+    <div class="project-level">
+        <h3>Advanced Projects</h3>
+
+        <p>• IT Student Navigator</p>
+        <p>• College Management System</p>
+        <p>• Career Recommendation System</p>
+        <p>• Student Skill Tracking System</p>
+        <p>• Online Learning Management System</p>
+    </div>
+
+</section>
+</center>
+
+
+    <!-- ================= QUIZ ================= -->
+
+
+<section id="quiz">
+
+    <h2>Skill Quiz</h2>
+
+    <div class="quiz-box">
+
+        <h3 id="quizQuestion">
+            Which language is used to create the structure of a web page?
+        </h3>
+
+        <div id="options">
+
+            <button onclick="checkAnswer('A')">A. CSS</button>
+            <button onclick="checkAnswer('B')">B. HTML</button>
+            <button onclick="checkAnswer('C')">C. SQL</button>
+            <button onclick="checkAnswer('D')">D. Python</button>
+
+        </div>
+
+        <p id="result"></p>
+
+        <button onclick="nextQuiz()">Next Question</button>
+
+    </div>
+
+</section>
+
+
+<script>
+
+let quizNo = 1;
+
+function checkAnswer(answer) {
+
+    if (quizNo == 1) {
+
+        if (answer == 'B') {
+            document.getElementById("result").innerHTML =
+            "Correct Answer! HTML is used to create the structure of a web page.";
+        } else {
+            document.getElementById("result").innerHTML =
+            "Wrong Answer! Correct answer is B. HTML.";
+        }
+
+    }
+
+
+    if (quizNo == 2) {
+
+        if (answer == 'C') {
+            document.getElementById("result").innerHTML =
+            "Correct Answer! CSS is used to style and design a web page.";
+        } else {
+            document.getElementById("result").innerHTML =
+            "Wrong Answer! Correct answer is C. CSS.";
+        }
+
+    }
+
+
+    if (quizNo == 3) {
+
+        if (answer == 'A') {
+            document.getElementById("result").innerHTML =
+            "Correct Answer! JavaScript is used to make web pages interactive.";
+        } else {
+            document.getElementById("result").innerHTML =
+            "Wrong Answer! Correct answer is A. JavaScript.";
+        }
+
+    }
+}
+
+
+function nextQuiz() {
+
+    quizNo++;
+
+    if (quizNo > 3) {
+        quizNo = 1;
+    }
+
+    document.getElementById("result").innerHTML = "";
+
+
+    if (quizNo == 1) {
+
+        document.getElementById("quizQuestion").innerHTML =
+        "Which language is used to create the structure of a web page?";
+
+        document.getElementById("options").innerHTML = `
+            <button onclick="checkAnswer('A')">A. CSS</button>
+            <button onclick="checkAnswer('B')">B. HTML</button>
+            <button onclick="checkAnswer('C')">C. SQL</button>
+            <button onclick="checkAnswer('D')">D. Python</button>
+        `;
+
+    }
+
+
+    if (quizNo == 2) {
+
+        document.getElementById("quizQuestion").innerHTML =
+        "Which technology is mainly used to style a web page?";
+
+        document.getElementById("options").innerHTML = `
+            <button onclick="checkAnswer('A')">A. HTML</button>
+            <button onclick="checkAnswer('B')">B. JavaScript</button>
+            <button onclick="checkAnswer('C')">C. CSS</button>
+            <button onclick="checkAnswer('D')">D. SQL</button>
+        `;
+
+    }
+
+
+    if (quizNo == 3) {
+
+        document.getElementById("quizQuestion").innerHTML =
+        "Which language is used to make a web page interactive?";
+
+        document.getElementById("options").innerHTML = `
+            <button onclick="checkAnswer('A')">A. JavaScript</button>
+            <button onclick="checkAnswer('B')">B. CSS</button>
+            <button onclick="checkAnswer('C')">C. HTML</button>
+            <button onclick="checkAnswer('D')">D. SQL</button>
+        `;
+
+    }
+
+}
+
+</script>
+
+
+
+    <!-- ================= INTERVIEW ================= -->
+
+   
+<section id="interview" class="section">
+    <h2>Interview Preparation</h2>
+
+    <div class="section-heading">
+
+        <h3 id="question">What is HTML?</h3>
+
+        <p id="answer"></p>
+
+        <button onclick="showAnswer()">Show Answer</button>
+        <button onclick="nextQuestion()">Next Question</button>
+
+    </div>
+</section>
+
+<script>
+
+let questionNo = 1;
+
+function showAnswer() {
+
+    if (questionNo == 1) {
+        document.getElementById("answer").innerHTML =
+        "HTML stands for HyperText Markup Language. It is used to create the structure of web pages.";
+    }
+
+    if (questionNo == 2) {
+        document.getElementById("answer").innerHTML =
+        "CSS stands for Cascading Style Sheets. It is used to design and style web pages.";
+    }
+
+    if (questionNo == 3) {
+        document.getElementById("answer").innerHTML =
+        "JavaScript is a programming language used to make web pages interactive and dynamic.";
+    }
+}
+
+function nextQuestion() {
+
+    questionNo++;
+
+    if (questionNo > 3) {
+        questionNo = 1;
+    }
+
+    if (questionNo == 1) {
+        document.getElementById("question").innerHTML =
+        "1.What is HTML?" ;
+    }
+
+    if (questionNo == 2) {
+        document.getElementById("question").innerHTML =
+        "What is CSS?";
+    }
+
+    if (questionNo == 3) {
+        document.getElementById("question").innerHTML =
+        "What is JavaScript?";
+    }
+
+    document.getElementById("answer").innerHTML = "";
+}
+
+</script>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        
+            🚀 IT Student Navigator
+        
+
+        <p>
+            Learn • Practice • Build • Grow
+        </p>
+
+        <p class="copyright">
+            © 2026 IT Student Navigator
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
